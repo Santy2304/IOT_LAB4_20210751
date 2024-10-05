@@ -34,7 +34,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class LigasFragment extends Fragment {
-    List<String> validCountries = Arrays.asList("Spain", "England", "France", "Brazil");
+    List<String> validCountries = Arrays.asList("Spain", "England", "France", "Brazil", "Germany");
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
