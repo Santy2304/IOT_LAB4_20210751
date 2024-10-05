@@ -8,7 +8,7 @@ public class Leagues implements Serializable {
     private int idLeague;
     private String strLeague;
     private String strSport;
-    private List<String> strLeagueAlternate;
+    private String strLeagueAlternate;
 
     public String getStrLeague() {
         return strLeague;
@@ -26,11 +26,11 @@ public class Leagues implements Serializable {
         this.idLeague = idLeague;
     }
 
-    public List<String> getStrLeagueAlternate() {
+    public String getStrLeagueAlternate() {
         return strLeagueAlternate;
     }
 
-    public void setStrLeagueAlternate(List<String> strLeagueAlternate) {
+    public void setStrLeagueAlternate(String strLeagueAlternate) {
         this.strLeagueAlternate = strLeagueAlternate;
     }
 

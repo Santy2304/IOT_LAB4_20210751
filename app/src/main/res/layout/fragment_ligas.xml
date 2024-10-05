@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:text="Buscar" />
         </LinearLayout>
-<!--
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler"
             android:padding="12dp"
@@ -54,7 +54,7 @@
             android:layout_height="match_parent">
 
         </androidx.recyclerview.widget.RecyclerView>
--->
+
 
     </LinearLayout>
 
