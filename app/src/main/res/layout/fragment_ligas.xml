@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="12dp"
+        android:background="@color/turquoise"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
@@ -36,6 +37,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/search_liga"
                     android:layout_width="match_parent"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"/>
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -43,6 +45,7 @@
             <Button
                 android:id="@+id/buscarButton"
                 android:layout_width="wrap_content"
+                android:backgroundTint="@color/navy_blue"
                 android:layout_height="wrap_content"
                 android:text="Buscar" />
         </LinearLayout>
