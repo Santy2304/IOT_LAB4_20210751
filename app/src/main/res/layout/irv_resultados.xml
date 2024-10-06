@@ -122,7 +122,7 @@
                     android:padding="2sp">
                     <TextView
                         android:id="@+id/leagueName"
-                        android:layout_marginEnd="40dp"
+                        android:layout_marginEnd="20dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-condensed"
@@ -139,7 +139,6 @@
                         android:fontFamily="sans-serif-condensed"
                         android:text="fecha"
                         android:textColor="@color/black"
-                        android:textStyle="bold"
                         android:textAppearance="?attr/textAppearanceTitleMedium"/>
 
                 </LinearLayout>
