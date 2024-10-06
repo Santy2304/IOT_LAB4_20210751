@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         new MaterialAlertDialogBuilder(this)
                 .setTitle("¡Error de conexión!")
                 .setMessage("Dirígete a ajustes para establecer conexión.")
-                .setPositiveButton("Entendido", (dialog, which) -> {
+                .setPositiveButton("Ir a configuración", (dialog, which) -> {
                     Intent intent = new Intent(Settings.ACTION_WIRELESS_SETTINGS);
                     startActivity(intent);
                 })

@@ -88,7 +88,7 @@ public class PosicionesFragment extends Fragment {
                 }
 
                 if(valid){
-                    footballService.getPosiciones(idEnteroLiga,season).enqueue(new Callback<PosicionesDTO>() {
+                    footballService.getPosiciones(Integer.parseInt(idLiga),season).enqueue(new Callback<PosicionesDTO>() {
                         @Override
                         public void onResponse(@NonNull Call<PosicionesDTO> call, @NonNull Response<PosicionesDTO> response) {
                             if (response.isSuccessful()) {
